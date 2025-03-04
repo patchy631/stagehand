@@ -55,9 +55,6 @@ const { description } = await page.extract({
 });
 ```
 
-> [!WARNING]  
-> We highly recommend using the Node.js runtime environment to run Stagehand scripts, as opposed to newer alternatives like Bun. This is solely due to the fact that [Bun's runtime is not yet fully compatible with Playwright](https://github.com/microsoft/playwright/issues/27139).
-
 ## Why?
 **Stagehand adds determinism to otherwise unpredictable agents.**
 
